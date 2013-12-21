@@ -1,0 +1,10 @@
+
+equilibrium material search,
+iterations (#),keff,convergence status
+1,1.00025E+00,not enough iterations - 1 of 5 iterations
+2,9.99320E-01,not enough iterations - 2 of 5 iterations
+3,9.98790E-01,not enough iterations - 3 of 5 iterations
+4,1.00018E+00,not enough iterations - 4 of 5 iterations
+5,9.98300E-01,not enough iterations - 5 of 5 iterations
+6,9.99600E-01,keff has not converged - (n-1): 9.98300E-01, (n): 9.99600E-01
+7,9.99460E-01,Material Converged in 7 iterations!

@@ -1,0 +1,12 @@
+#!/bin/sh
+#SBATCH --mem_bind=verbose,local
+#SBATCH --cpu_bind=verbose,rank_ldom
+#SBATCH --job-name=Mk1.1
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --partition=x
+#SBATCH --time=100:00:00
+#SBATCH --cpus-per-task=6
+#SBATCH --ntasks=8
+
+python BEAU8.py
